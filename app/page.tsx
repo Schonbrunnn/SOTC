@@ -275,7 +275,7 @@ export default function Home() {
                   <span className="mole-window" aria-hidden="true">
                     <img
                       className={`mole-head ${isActive ? 'up' : ''} ${isBonked ? 'bonked' : ''}`}
-                      src="/game/mole-person.png"
+                      src="game/mole-person.png"
                       alt=""
                       draggable="false"
                     />
@@ -301,7 +301,7 @@ export default function Home() {
 
           <aside className={`pony-surprise ${showPony ? 'show' : ''}`} aria-hidden={!showPony}>
             <div className="pony-speech"><b>哈哈哈！</b><span>五连击！</span></div>
-            <img src="/game/laughing-pony.png" alt="开心大笑的彩色小马" draggable="false" />
+            <img src="game/laughing-pony.png" alt="开心大笑的彩色小马" draggable="false" />
           </aside>
 
           {phase !== 'playing' && (
